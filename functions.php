@@ -2,16 +2,6 @@
 if ( ! function_exists( 'makoney_setup' ) ) :
 	function makoney_setup() {
 
-		// Adding support for featured images.
-		add_theme_support( 'post-thumbnails' );
-
-		// Register Navigation menus.
-		register_nav_menus(
-			array(
-				'primary' => esc_html__( 'Primary Menu', 'makoney' ),
-				'header-top' => esc_html__( 'Header Top Menu', 'makoney' ),
-			)
-		);
 
 		// Add support for Block Styles.
 		add_theme_support( 'wp-block-styles' );
@@ -20,7 +10,7 @@ if ( ! function_exists( 'makoney_setup' ) ) :
 		add_theme_support( 'editor-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( array( 'assets/build/css/editor.css', makoney_fonts_url() ) );
+		add_editor_style( array( 'assets/build/css/style-editor.css', makoney_fonts_url() ) );
 
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
@@ -36,7 +26,7 @@ function makoney_scripts() {
 	// Enqueue fonts stylesheet.
 	wp_enqueue_style( 'makoney-fonts', makoney_fonts_url(), array(), wp_get_theme()->get( 'Version' ) );
 	// Theme stylesheet.
-	wp_enqueue_style( 'makoney-style', get_template_directory_uri() . '/assets/build/css/main.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'makoney-style', get_template_directory_uri() . '/assets/build/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'makoney_scripts' );
 
@@ -58,15 +48,6 @@ function makoney_fonts_url() {
 
 	return wptt_get_webfont_url( esc_url_raw( $fonts_url ) );
 }
-
-/**
- * Restores the Customizer since we still rely on it.
- */
-function aino_restore_customizer() {
-	// There's no need to return anything.
-	// The empty callback will do the trick.
-}
-add_action( 'customize_register', 'aino_restore_customizer' );
 
 // Theme Block Patterns.
 require get_template_directory() . '/inc/block-patterns.php';
@@ -91,7 +72,7 @@ function makoney_register_required_plugins() {
 	$plugins = array(
 
 		array(
-			'name'      => 'Aino Blocks - Creative Block Collection',
+			'name'      => 'AinoBlocks - Gutenberg Page Builder Blocks',
 			'slug'      => 'aino-blocks',
 			'required'  => false,
 		),
