@@ -1,10 +1,10 @@
 === Makoney ===
-Contributors: elmastudio, manuelesposito
+Contributors: elmastudio
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing
 Requires at least: 5.9
-Tested up to: WordPress 6.0
+Tested up to: WordPress 6.0.1
 Requires PHP: 7.0
-Stable tag: 1.0.5
+Stable tag: 1.1.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -42,31 +42,42 @@ Webfonts Loader - (c) WordPress Themes Team, https://github.com/WPTT/webfont-loa
 
 == Changelog ==
 
-= 1.0.5 =
+= 1.1.0 =
+Release date: August 22, 2022
 
-Release date: June 12åth, 2022
+* New: Delete Aino theme patterns from Makoney.
+* New: Add support for Pattie starter patterns.
+* Enhance: Add patterns via patterns folder.
+* Enhance: Single Post templates add New comments query loop block and delete comment link block.
+* Enhance: Color palette.
+* Enhance: blockGap in themeJson.
+* Fix: Default body font size.
+* Fix: Update patterns.
+
+= 1.0.5 =
+Release date: June 12th, 2022
 
 * Enhance: Add Border 1 color to color palette.
 * Enhance: Allow custom font sizes.
 * Enhance: Preformatted block styles.
 * Enhance: theme.json default paragraph and list block font sizes.
 * Enhance: Color names.
-* Bugfix: Update Header patterns.
-* Bugfix: Update Footer patterns.
-* Bugfix: Single templates Category font sizes.
+* Fix: Update Header patterns.
+* Fix: Update Footer patterns.
+* Fix: Single templates Category font sizes.
 
 = 1.0.4 =
 
 Release date: January 28, 2022
 
-* Bugfix: Heading font padding fixed. Still missing default paddings for posts, will be fixed in the next update.
+* Fix: Heading font padding fixed. Still missing default paddings for posts, will be fixed in the next update.
 
 = 1.0.3 =
 
 Release date: January 25, 2022
 
-* Bugfix: Fixed missing pattern images links.
-* Bugfix: Font sizes in patterns.
+* Fix: Fixed missing pattern images links.
+* Fix: Font sizes in patterns.
 
 = 1.0.2 =
 

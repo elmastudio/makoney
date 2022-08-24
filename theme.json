@@ -1,5 +1,4 @@
-{
-	"version": 2,
+{	
 	"settings": {
 		"appearanceTools": true,
 		"border": {
@@ -9,10 +8,8 @@
 			"width": true
 		},
 		"spacing": {
-			"margin": true,
-			"padding": true,
-			"units": ["px", "rem", "vh", "vw"],
-			"blockGap": 0
+			"blockGap": true,
+			"units": ["px", "em", "rem", "%", "vh", "vw"]
 		},
 		"color": {
 			"defaultPalette": false,
@@ -23,112 +20,172 @@
 				{
 					"slug": "background-primary",
 					"color": "#ffffff",
-					"name": "Background 1"
+					"name": "Background Primary"
 				},
 				{
 					"slug": "background-secondary",
 					"color": "#f4f4f4",
-					"name": "Background 2"
+					"name": "Background Secondary"
 				},
 				{
 					"slug": "background-tertiary",
 					"color": "#bfb3fc",
-					"name": "Background 3"
+					"name": "Background Tertiary"
+				},
+				{
+					"slug": "background-quaternary",
+					"color": "#c3c3c3",
+					"name": "Background Quartenary"
+				},
+				{
+					"slug": "background-quinary",
+					"color": "rgba(0, 0, 0, 0.05)",
+					"name": "Background Quinary"
 				},
 				{
 					"slug": "font-primary",
 					"color": "#000000",
-					"name": "Text 1"
+					"name": "Text Primary"
 				},
 				{
 					"slug": "font-secondary",
 					"color": "#000000",
-					"name": "Text 2"
+					"name": "Text Secondary"
 				},
 				{
 					"slug": "font-tertiary",
-					"color": "#000000",
-					"name": "Text 3"
-				},
-				{
-					"slug": "primary",
-					"color": "#000000",
-					"name": "Button Background"
-				},
-				{
-					"slug": "secondary",
-					"color": "#4338CA",
-					"name": "Button Background Hover"
+					"color": "#323232",
+					"name": "Text Tertiary"
 				},
 				{
 					"slug": "button-color-primary",
 					"color": "#ffffff",
-					"name": "Button Text"
-				},
-				{
-					"slug": "button-color-secondary",
-					"color": "#ffffff",
-					"name": "Button Text Hover"
+					"name": "Text on Brand"
 				},
 				{
 					"slug": "border-primary",
 					"color": "#000000",
-					"name": "Neutral"
+					"name": "Border Primary"
+				},
+				{
+					"slug": "border-secondary",
+					"color": "#292929",
+					"name": "Border Secondary"
+				},
+				{
+					"slug": "primary",
+					"color": "#000000",
+					"name": "Brand Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "rgba(0, 0, 0, 0.8)",
+					"name": "Brand Secondary"
+				},
+				{
+					"slug": "button-color-secondary",
+					"color": "rgba(0, 0, 0, 0.1)",
+					"name": "Brand Tertiary"
+				},
+				{
+					"slug": "accent-primary",
+					"color": "#7960f9",
+					"name": "Accent Primary"
+				},
+				{
+					"slug": "accent-secondary",
+					"color": "#fcd34d",
+					"name": "Accent Secondary"
+				},
+				{
+					"slug": "accent-tertiary",
+					"color": "#52525B",
+					"name": "Accent Tertiary"
 				},
 				{
 					"slug": "variant-background-primary",
 					"color": "#000000",
-					"name": "Variant Background 1"
+					"name": "Variant Background Primary"
 				},
 				{
 					"slug": "variant-background-secondary",
 					"color": "#262626",
-					"name": "Variant Background 2"
+					"name": "Variant Background Secondary"
 				},
 				{
 					"slug": "variant-background-tertiary",
 					"color": "#8b5cf6",
-					"name": "Variant Background 3"
+					"name": "Variant Background Tertiary"
+				},
+				{
+					"slug": "variant-background-quaternary",
+					"color": "#c3c3c3",
+					"name": "Variant Background Quartenary"
+				},
+				{
+					"slug": "variant-background-quinary",
+					"color": "rgba(255, 255, 255, 0.05)",
+					"name": "Variant Background Quinary"
 				},
 				{
 					"slug": "variant-font-primary",
 					"color": "#ffffff",
-					"name": "Variant Text 1"
+					"name": "Variant Text Primary"
 				},
 				{
 					"slug": "variant-font-secondary",
 					"color": "#f4f4f4",
-					"name": "Variant Text 2"
+					"name": "Variant Text Secondary"
 				},
 				{
 					"slug": "variant-font-tertiary",
-					"color": "#9F9F9F",
-					"name": "Variant Text 3"
-				},
-				{
-					"slug": "variant-primary",
-					"color": "#ffffff",
-					"name": "Variant Button Background"
-				},
-				{
-					"slug": "variant-secondary",
-					"color": "#818CF8",
-					"name": "Variant Button Background Hover"
-				},
-				{
-					"slug": "variant-button-color-primary",
-					"color": "#000000",
-					"name": "Variant Button Text"
+					"color": "#EAEAEA",
+					"name": "Variant Text Tertiary"
 				},
 				{
 					"slug": "variant-button-color-secondary",
 					"color": "#000000",
-					"name": "Variant Button Text Hover"
+					"name": "Variant Text on Brand"
 				},
 				{
 					"slug": "variant-border-primary",
 					"color": "#ffffff",
-					"name": "Variant Neutral"
+					"name": "Variant Border Primary"
+				},
+				{
+					"slug": "variant-border-secondary",
+					"color": "#e1e1e1",
+					"name": "Variant Border Secondary"
+				},
+				{
+					"slug": "variant-primary",
+					"color": "#ffffff",
+					"name": "Variant Brand Primary"
+				},
+				{
+					"slug": "variant-secondary",
+					"color": "rgba(255, 255, 255, 0.8)",
+					"name": "Variant Brand Secondary"
+				},
+				{
+					"slug": "variant-button-color-secondary",
+					"color": "rgba(255, 255, 255, 0.1)",
+					"name": "Variant Brand Tertiary"
+				},
+				{
+					"slug": "variant-accent-primary",
+					"color": "#aa99ff",
+					"name": "Variant Accent Primary"
+				},
+				{
+					"slug": "variant-accent-secondary",
+					"color": "#fde491",
+					"name": "Variant Accent Secondary"
+				},
+				{
+					"slug": "variant-accent-tertiary",
+					"color": "#8e8e99",
+					"name": "Variant Accent Tertiary"
 				}
 			],
 			"gradients": [
@@ -327,7 +384,7 @@
 	},
 	"styles": {
 		"spacing": {
-			"blockGap": null
+			"blockGap": "0.0rem"
 		},
 		"color": {
 			"background": "var(--wp--custom--color--main-background)",
@@ -386,6 +443,7 @@
 		"typography": {
 			"fontFamily": "var(--wp--custom--body--typography--font-family)",
 			"lineHeight": "var(--wp--custom--line-height--body)",
+			"fontSize": "var(--wp--preset--font-size--text-m)",
 			"fontWeight": "300"
 		},
 		"blocks": {
@@ -497,7 +555,10 @@
 			"area": "footer"
 		},
 		{
-			"name": "single-related-posts"
+			"name": "single-related-posts",
+			"area": "footer"
 		}
-	]
+	],
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
+	"version": 2
 }
