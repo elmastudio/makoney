@@ -1,12 +1,12 @@
 === Makoney ===
 Contributors: elmastudio
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing
-Requires at least: 5.9
+Requires at least: 6
 Tested up to: WordPress 6.0.1
 Requires PHP: 7.0
-Stable tag: 1.1.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Stable tag: 1.2.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Makoney is a full site editing block theme for blogs and magazines.
 
@@ -42,8 +42,12 @@ Webfonts Loader - (c) WordPress Themes Team, https://github.com/WPTT/webfont-loa
 
 == Changelog ==
 
+= 1.2.0 =
+Release date: , 2022
+
+
 = 1.1.0 =
-Release date: August 22, 2022
+Release date: August 24, 2022
 
 * New: Delete Aino theme patterns from Makoney.
 * New: Add support for Pattie starter patterns.
