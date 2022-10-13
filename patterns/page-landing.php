@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Landing Page
- * Slug: makoney/page-magazine-landing
+ * Slug: makoney/page-landing
  * Categories: pages
  */
 ?>
@@ -10,8 +10,8 @@
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:ainoblocks/accordion-faq-block {"iconPosition":"icon__left","question":"FILTER CONTENTS","align":"full","style":{"color":{"background":"#bfb3fc","text":"#bfb3fc"}},"className":"is-style-accordion bg-dark is-style-toggle","paddingTop":5,"paddingBottom":11,"paddingLeft":0,"paddingRight":0} -->
-<div class="wp-block-ainoblocks-accordion-faq-block alignfull icon__left is-style-accordion bg-dark is-style-toggle has-text-color has-background pt__5 pb__11" style="background-color:#bfb3fc;color:#bfb3fc" x-data="{ open: false }" @click="open = !open" :class="{'open': open, 'close': ! open }"><div class="accordion"><h3 class="has-xxs-font-size">FILTER CONTENTS</h3></div><div class="panel">
+<!-- wp:ainoblocks/accordion-faq-block {"iconPosition":"icon__left","question":"FILTER CONTENTS","align":"full","style":{"color":{"background":"#bfb3fc","text":"#bfb3fc"},"border":{"width":"0px","style":"none"}},"className":"is-style-accordion bg-dark is-style-toggle","paddingTop":5,"paddingBottom":11,"paddingLeft":0,"paddingRight":0} -->
+<div class="wp-block-ainoblocks-accordion-faq-block alignfull icon__left is-style-accordion bg-dark is-style-toggle has-text-color has-background pt__5 pb__11" style="background-color:#bfb3fc;color:#bfb3fc;border-style:none;border-width:0px;" x-data="{ open: false }" @click="open = !open" :class="{'open': open, 'close': ! open }"><div class="accordion"><h3 class="has-xxs-font-size">FILTER CONTENTS</h3></div><div class="panel">
 <!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m","paddingTop":10,"paddingBottom":14} -->
 <div class="wp-block-ainoblocks-grid-container alignwide col-gap-m pt__10 pb__14"><div class="wp-block-ainoblocks-grid-container__inner"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":5,"gridColumnStartTablet":1,"gridColumnEndTablet":5,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","paddingTop":5} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__5 col_start_t__1 col_end_t__5 col_start_m__1 col_end_m__13 align-self__start justify-self__stretch no-stacking pt__5"><!-- wp:heading {"textColor":"font-primary","fontSize":"text-xxl","paddingBottom":0} -->

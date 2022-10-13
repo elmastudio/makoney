@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Contact Page
- * Slug: makoney/page-magazine-contact
+ * Slug: makoney/page-contact
  * Categories: pages
  */
 ?>

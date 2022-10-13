@@ -30,7 +30,8 @@
 
 <!-- wp:ainoblocks/grid-container {"className":"alignwide","paddingTop":8} -->
 <div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block pt__8"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":13,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","className":"align-self__start","paddingBottom":8} -->
-<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__13 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 justify-self__stretch no-stacking align-self__start pb__8"><!-- wp:site-title {"textAlign":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"-4px"}},"fontSize":"text-7-xl"} /--></div>
+<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__13 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 justify-self__stretch no-stacking align-self__start pb__8">
+<!-- wp:site-title {"textAlign":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"-3px"}},"fontSize":"text-6-xl"} /--></div>
 <!-- /wp:ainoblocks/grid-item -->
 
 <!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":13,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","className":"mobile-hide tablet-show","paddingTop":0,"paddingBottom":9} -->
