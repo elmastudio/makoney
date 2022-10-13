@@ -35,16 +35,30 @@ GNU General Public License for more details.
 
 Makoney WordPress Theme bundles the following third-party resources:
 
-* normalize.css, Copyright (c) Nicolas Gallagher and Jonathan Neal, MIT license, https://necolas.github.io/normalize.css/
-* Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
-* TGM-Plugin-Activation, (c) Thomas Griffin, License: GPLv2 or later, http://tgmpluginactivation.com
-Webfonts Loader - (c) WordPress Themes Team, https://github.com/WPTT/webfont-loader, License: MIT - https://opensource.org/licenses/MIT
+Libre Franklin (font)
+Copyright 2020 The LibreFranklin Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/impallari/Libre-Franklin
+
+Ibarra Real Nova (font)
+Copyright 2007 The Ibarra Real Nova Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/googlefonts/ibarrareal
+
+TGM-Plugin-Activation
+Copyright Thomas Griffin
+License: GPLv2 or later, http://www.gnu.org/licenses/gpl-2.0.html
+Source: http://tgmpluginactivation.com
+
+Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
 
 == Changelog ==
 
 = 1.2.0 =
-Release date: , 2022
+Release date: October 13, 2022
 
+* Enhance: Google fonts locally via theme.json.
+* Enhance: Delete index.php file as no longer needed.
 
 = 1.1.0 =
 Release date: August 24, 2022
