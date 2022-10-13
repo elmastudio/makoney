@@ -1,10 +1,11 @@
 <?php
 /**
- * Footer 5 Columns, Social Links (Light)
+ * Footer (Default)
  */
+
 return array(
-	'title'      => __( 'Footer 5 Columns, Social Links (Light)', 'aino' ),
-	'categories' => array( 'footer' ),
+	'title'      => __( 'Footer (Default)' ),
+	'categories' => array( 'footers' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:separator {"color":"font-primary","align":"full","className":"is-style-wide"} -->
 	<hr class="wp-block-separator alignfull has-text-color has-background has-font-primary-background-color has-font-primary-color is-style-wide"/>

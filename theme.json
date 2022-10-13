@@ -575,20 +575,8 @@
 			"area": "footer"
 		},
 		{
-			"name": "footer-dark",
-			"area": "footer"
-		},
-		{
-			"name": "footer-five-columns-light",
-			"area": "footer"
-		},
-		{
-			"name": "footer-five-columns-dark",
-			"area": "footer"
-		},
-		{
 			"name": "single-related-posts",
-			"area": "footer"
+			"area": "uncategorized"
 		}
 	],
 	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",

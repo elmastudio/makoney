@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Footer 5 Columns, Social Links (Light)
- * Slug: makoney/footer-five-col-social-light
+ * Title: Footer (Default)
+ * Slug: makoney/footer-default
  * Categories: footers
  * Block Types: core/template-part/footer
  */
