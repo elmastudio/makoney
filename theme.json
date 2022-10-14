@@ -103,6 +103,26 @@
 					"name": "Accent Tertiary"
 				},
 				{
+					"slug": "neutral-primary",
+					"color": "#383838",
+					"name": "Neutral Primary"
+				},
+				{
+					"slug": "neutral-secondary",
+					"color": "#1E1E1E",
+					"name": "Neutral Secondary"
+				},
+				{
+					"slug": "neutral-tertiary",
+					"color": "rgba(0, 0, 0, 0.2)",
+					"name": "Neutral Tertiary"
+				},
+				{
+					"slug": "neutral-quarternary",
+					"color": "#000000",
+					"name": "Neutral Quarternary"
+				},
+				{
 					"slug": "variant-background-primary",
 					"color": "#000000",
 					"name": "Variant Background Primary"
@@ -186,6 +206,26 @@
 					"slug": "variant-accent-tertiary",
 					"color": "#8e8e99",
 					"name": "Variant Accent Tertiary"
+				},
+				{
+					"slug": "variant-neutral-primary",
+					"color": "#D9D9D9",
+					"name": "Variant Neutral Primary"
+				},
+				{
+					"slug": "variant-neutral-secondary",
+					"color": "#FFFFFF",
+					"name": "Variant Neutral Secondary"
+				},
+				{
+					"slug": "variant-neutral-tertiary",
+					"color": "rgba(255, 255, 255, 0.3)",
+					"name": "Variant Neutral Tertiary"
+				},
+				{
+					"slug": "variant-neutral-quarternary",
+					"color": "#383838",
+					"name": "Variant Neutral Quarternary"
 				}
 			],
 			"gradients": [
