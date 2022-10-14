@@ -825,7 +825,7 @@ a {
 input[type="button"], input[type="submit"], .wp-block-search__button {
   line-height: var(--global--line-height-reset);
   cursor: pointer;
-  padding: 1rem 1.313rem;
+  padding: 1.25rem 1.625rem;
   font-size: 1rem;
   font-weight: normal;
   display: inline-block;
