@@ -5,8 +5,7 @@
  * Categories: pages
  */
 ?>
-<!-- wp:group {"align":"full","paddingTop":13} -->
-<div class="wp-block-group alignfull pt__13">
+
 <!-- wp:separator {"backgroundColor":"border-primary","className":"alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
@@ -21,8 +20,7 @@
 <p class="has-text-xl-font-size">Our magazine's first edition was released as a small side project by three friends. Now we have published over thirty editions and guest authors from over twelve countries have shared stories for our boutique art magazine.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:ainoblocks/grid-item --></div>
-<!-- /wp:ainoblocks/grid-container --></div>
-<!-- /wp:group -->
+<!-- /wp:ainoblocks/grid-container -->
 
 <!-- wp:separator {"backgroundColor":"border-primary","className":"alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>

@@ -6,8 +6,6 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","paddingTop":14} -->
-<div class="wp-block-group alignfull pt__14">
 <!-- wp:separator {"backgroundColor":"border-primary","className":"alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
@@ -19,9 +17,9 @@
 
 <!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":9,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","paddingTop":0} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__9 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__start justify-self__stretch no-stacking"><!-- wp:search {"label":"","placeholder":"Type to search...","buttonText":"Search","className":"btn-rounded form-rounded"} /--></div>
-<!-- /wp:ainoblocks/grid-item --></div></div>
-<!-- /wp:ainoblocks/grid-container --></div>
-<!-- /wp:group -->
+<!-- /wp:ainoblocks/grid-item --></div>
+</div>
+<!-- /wp:ainoblocks/grid-container -->
 
 <!-- wp:separator {"backgroundColor":"border-primary","className":"alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>

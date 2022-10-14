@@ -11,8 +11,8 @@ return array(
 	<hr class="wp-block-separator alignfull has-text-color has-background has-font-primary-background-color has-font-primary-color is-style-wide"/>
 	<!-- /wp:separator -->
 	
-	<!-- wp:group {"align":"full","backgroundColor":"background-primary","className":"site-footer"} -->
-	<div class="wp-block-group alignfull site-footer has-background-primary-background-color has-background"><!-- wp:group {"className":"footer-content","paddingTop":11,"paddingBottom":10} -->
+	<!-- wp:group {"align":"full","backgroundColor":"background-primary","className":"site-footer content-gap"} -->
+	<div class="wp-block-group alignfull site-footer content-gap has-background-primary-background-color has-background"><!-- wp:group {"className":"footer-content","paddingTop":11,"paddingBottom":10} -->
 	<div class="wp-block-group footer-content pt__11 pb__10"><!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m"} -->
 	<div class="wp-block-ainoblocks-grid-container alignwide col-gap-m"><div class="wp-block-ainoblocks-grid-container__inner"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":4,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","marginBottomDesktop":0,"marginBottomTablet":11,"marginBottomMobile":11} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__4 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__start justify-self__stretch no-stacking mb_d__0 mb_t__11 mb_m__11"><!-- wp:ainoblocks/grid-container {"className":"no-gap-desktop"} -->

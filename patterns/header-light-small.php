@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"className":"site-header pro-light-s","paddingTop":5,"paddingBottom":5} -->
-<div class="wp-block-group site-header pro-light-s pt__5 pb__5"><!-- wp:group {"className":"header-content","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"className":"site-header pro-light-s content-gap","paddingTop":5,"paddingBottom":11} -->
+<div class="wp-block-group site-header pro-light-s content-gap pt__5 pb__11"><!-- wp:group {"className":"header-content","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group header-content"><!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","textTransform":"uppercase"}},"fontSize":"text-xxl"} /-->
 
 <!-- wp:ainoblocks/flexbox {"alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m","alignContentDesktop":"align-cont__center__d","alignContentTablet":"align-cont__center__t","alignContentMobile":"align-cont__center__m","paddingLeft":1,"paddingRight":0} -->
@@ -19,8 +19,9 @@
 <!-- /wp:ainoblocks/flex-item -->
 
 <!-- wp:ainoblocks/flex-item {"paddingLeft":2} -->
-<div class="wp-block-ainoblocks-flex-item auto pl__2"><!-- wp:ainoblocks/multiple-buttons -->
-<div class="wp-block-ainoblocks-multiple-buttons"><!-- wp:ainoblocks/button {"size":"size__xs","label":"Search","className":"btn-icon icon-search is-style-naked"} -->
+<div class="wp-block-ainoblocks-flex-item auto pl__2">
+	<!-- wp:ainoblocks/multiple-buttons {"paddingRight":3} -->
+<div class="wp-block-ainoblocks-multiple-buttons pr__3"><!-- wp:ainoblocks/button {"size":"size__xs","label":"Search","className":"btn-icon icon-search is-style-naked"} -->
 <div class="wp-block-ainoblocks-button btn-icon icon-search is-style-naked"><a class="wp-block-ainoblocks-button__link size__xs no-border-radius" href="#">Search</a></div>
 <!-- /wp:ainoblocks/button --></div>
 <!-- /wp:ainoblocks/multiple-buttons --></div>
