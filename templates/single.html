@@ -1,9 +1,10 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"className":"post-header alignwide content-gap","layout":{"inherit":false,"wideSize":"1800px"}} -->
-<div class="wp-block-group post-header alignwide content-gap">
-	<!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m"} -->
-<div class="wp-block-ainoblocks-grid-container ab-grid-block alignwide col-gap-m">
+<!-- wp:group {"style":{"spacing":{"padding":{"left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"className":"post-header alignwide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group post-header alignwide" style="padding-right:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)">
+
+<!-- wp:ainoblocks/grid-container {"columnGap":"col-gap-m"} -->
+<div class="wp-block-ainoblocks-grid-container alignwide ab-grid-block col-gap-m">
 	
 	<!-- wp:ainoblocks/grid-item {"className":"col_end_d__10 col_end_t__10 col_end_m__13 justify-self__stretch"} -->
 	<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__7 col_start_t__1 col_end_t__7 col_start_m__1 col_end_m__7 align-self__start justify-self__start no-stacking col_end_d__10 col_end_t__10 col_end_m__13 justify-self__stretch"><!-- wp:post-title {"level":1,"align":"wide","fontSize":"text-5-xl"} /-->
@@ -20,22 +21,24 @@
 	<!-- wp:post-featured-image {"align":"wide"} /--></div>
 	<!-- /wp:group -->
 
-<!-- wp:post-content {"className":"post-content content-gap","layout":{"inherit":true}} /-->
+<!-- wp:post-content {"className":"post-content","layout":{"type":"constrained"}} /-->
 
-<!-- wp:group {"textColor":"font-tertiary","className":"post-footer content-gap","layout":{"inherit":true},"paddingTop":9} -->
-<div class="wp-block-group post-footer content-gap has-font-tertiary-color has-text-color pt__9"><!-- wp:post-terms {"term":"category","fontSize":"text-xs"} /--></div>
+<!-- wp:group {"style":{"spacing":{"padding":{"left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"textColor":"font-tertiary","className":"post-footer","layout":{"type":"constrained"},"paddingTop":9} -->
+<div class="wp-block-group post-footer has-font-tertiary-color has-text-color pt__9" style="padding-right:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)">
+	<!-- wp:post-terms {"term":"category","fontSize":"text-xs"} /-->
+</div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"authorbox-wrap content-gap","layout":{"inherit":true},"paddingTop":14,"paddingBottom":14} -->
-<div class="wp-block-group authorbox-wrap content-gap pt__14 pb__14"><!-- wp:post-author {"avatarSize":96,"showBio":true,"byline":"Published by"} /--></div>
+<!-- wp:group {"style":{"spacing":{"padding":{"left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"className":"authorbox-wrap","layout":{"type":"constrained"},"paddingTop":14,"paddingBottom":14} -->
+<div class="wp-block-group authorbox-wrap pt__14 pb__14" style="padding-right:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:post-author {"avatarSize":96,"showBio":true,"byline":"Published by"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"backgroundColor":"background-secondary","className":"content-gap btn-rounded form-rounded","layout":{"inherit":true},"paddingTop":9,"paddingBottom":14} -->
-<div class="wp-block-group content-gap btn-rounded form-rounded has-background-secondary-background-color has-background pt__9 pb__14">
+<!-- wp:group {"style":{"spacing":{"padding":{"left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"backgroundColor":"background-secondary","className":"btn-rounded form-rounded","layout":{"type":"constrained"},"paddingTop":9,"paddingBottom":14} -->
+<div class="wp-block-group btn-rounded form-rounded has-background-secondary-background-color has-background pt__9 pb__14" style="padding-right:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)">
 
 	<!-- wp:comments-query-loop {"textColor":"font-secondary"} -->
-<div class="wp-block-comments-query-loop has-font-secondary-color has-text-color"><!-- wp:comments-title {"fontSize":"text-l"} /-->
-
+<div class="wp-block-comments-query-loop has-font-secondary-color has-text-color">
+	<!-- wp:comments-title {"fontSize":"text-l"} /-->
 	<!-- wp:comment-template -->
 	<!-- wp:columns {"style":{"spacing":{"blockGap":"0px"}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"width":"40px"} -->

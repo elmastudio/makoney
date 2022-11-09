@@ -11,9 +11,11 @@
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"align":"full","backgroundColor":"background-primary","className":"site-footer content-gap"} -->
-<div class="wp-block-group alignfull site-footer content-gap has-background-primary-background-color has-background"><!-- wp:group {"className":"footer-content","paddingTop":11,"paddingBottom":10} -->
-<div class="wp-block-group footer-content pt__11 pb__10"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m"} -->
+<!-- wp:group {"backgroundColor":"background-primary","className":"site-footer","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull site-footer has-background-primary-background-color has-background">
+	
+<!-- wp:group {"align":"wide","className":"footer-content","paddingTop":11,"paddingBottom":10} -->
+<div class="wp-block-group alignwide footer-content pt__11 pb__10"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m"} -->
 <div class="wp-block-ainoblocks-grid-container ab-grid-block alignwide col-gap-m"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":4,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","marginBottomDesktop":0,"marginBottomTablet":11,"marginBottomMobile":11,"className":"align-self__start"} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__4 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 justify-self__stretch no-stacking mb_d__0 mb_t__11 mb_m__11 align-self__start"><!-- wp:ainoblocks/grid-container {"className":"alignwide no-gap-desktop"} -->
 <div class="wp-block-ainoblocks-grid-container ab-grid-block alignwide no-gap-desktop"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":13,"gridColumnStartTablet":1,"gridColumnEndTablet":4,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"className":"align-self__start justify-self__start"} -->
