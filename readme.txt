@@ -1,12 +1,12 @@
 === Makoney ===
 Contributors: elmastudio
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, block-patterns, full-site-editing
-Requires at least: 5.9
-Tested up to: WordPress 6.0.1
+Requires at least: 6.1
+Tested up to: WordPress 6.1
 Requires PHP: 7.0
-Stable tag: 1.1.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Stable tag: 1.2.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Makoney is a full site editing block theme for blogs and magazines.
 
@@ -35,15 +35,56 @@ GNU General Public License for more details.
 
 Makoney WordPress Theme bundles the following third-party resources:
 
-* normalize.css, Copyright (c) Nicolas Gallagher and Jonathan Neal, MIT license, https://necolas.github.io/normalize.css/
-* Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
-* TGM-Plugin-Activation, (c) Thomas Griffin, License: GPLv2 or later, http://tgmpluginactivation.com
-Webfonts Loader - (c) WordPress Themes Team, https://github.com/WPTT/webfont-loader, License: MIT - https://opensource.org/licenses/MIT
+Work Sans (font)
+Copyright 2019 The Work Sans Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/weiweihuanghuang/Work-Sans
+
+Inter (font)
+Copyright 2020 The Inter Project Authors
+License: SIL Open Font License, 1.1, http://scripts.sil.org/OFL
+Source: (https://github.com/rsms/inter)
+
+Libre Franklin (font)
+Copyright 2020 The LibreFranklin Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/impallari/Libre-Franklin
+
+Ibarra Real Nova (font)
+Copyright 2007 The Ibarra Real Nova Project Authors
+License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
+Source: https://github.com/googlefonts/ibarrareal
+
+Fraunces (font)
+Copyright 2018 The Fraunces Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: (https://github.com/undercasetype/Fraunces)
+
+Urbanist (font)
+Copyright 2021 The Urbanist Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/coreyhu/Urbanist
+
+TGM-Plugin-Activation
+Copyright Thomas Griffin
+License: GPLv2 or later, http://www.gnu.org/licenses/gpl-2.0.html
+Source: http://tgmpluginactivation.com
+
+Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
 
 == Changelog ==
 
+= 1.2.0 =
+Release date: Nov 10, 2022
+
+* New: Google fonts Urbanist, Fraunces, Inter, Work Sans.
+* New: Fluid typography via theme.json.
+* New: Add spacing sizes via theme.json.
+* Enhance: Google fonts locally via theme.json.
+* Enhance: Delete index.php file as no longer needed.
+
 = 1.1.0 =
-Release date: August 22, 2022
+Release date: August 24, 2022
 
 * New: Delete Aino theme patterns from Makoney.
 * New: Add support for Pattie starter patterns.

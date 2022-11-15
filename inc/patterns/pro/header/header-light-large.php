@@ -6,21 +6,25 @@ return array(
 	'title'      => __( 'Header Large', 'aino' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
-	'content'    => '<!-- wp:group {"className":"site-header pro-light-l"} -->
-	<div class="wp-block-group site-header pro-light-l"><!-- wp:group {"className":"header-content","layout":{"inherit":false}} -->
-	<div class="wp-block-group header-content"><!-- wp:ainoblocks/flexbox -->
-	<div class="wp-block-ainoblocks-flexbox direction__row__d direction__row__t direction__row__m nowrap__d nowrap_t nowrap_m justify__flexstart__d justify__flexstart__t justify__flexstart__m align-items__stretch__d align-items__stretch__t align-itms__stretch__m align-cont__stretch__d align-cont__stretch__t align-cont__stretch__m shadow-none"><!-- wp:ainoblocks/flex-item {"paddingLeft":0} -->
-	<div class="wp-block-ainoblocks-flex-item auto"><!-- wp:navigation {"showSubmenuIcon":false,"overlayMenu":"always","className":"overlay","fontSize":"text-l"} /--></div>
-	<!-- /wp:ainoblocks/flex-item -->
-	
-	<!-- wp:ainoblocks/flex-item {"paddingLeft":2} -->
-	<div class="wp-block-ainoblocks-flex-item auto pl__2"><!-- wp:ainoblocks/multiple-buttons -->
-	<div class="wp-block-ainoblocks-multiple-buttons"><div class="wp-block-ainoblocks-multiple-buttons__inner"><!-- wp:ainoblocks/button {"size":"size__xs","label":"Search","className":"btn-icon icon-search is-style-naked"} -->
-	<div class="wp-block-ainoblocks-button btn-icon icon-search is-style-naked"><a class="wp-block-ainoblocks-button__link size__xs no-border-radius" href="/search/">Search</a></div>
-	<!-- /wp:ainoblocks/button --></div></div>
-	<!-- /wp:ainoblocks/multiple-buttons --></div>
-	<!-- /wp:ainoblocks/flex-item --></div>
-	<!-- /wp:ainoblocks/flexbox -->
+	'content'    => '<!-- wp:group {"className":"site-header pro-light-l content-gap"} -->
+	<div class="wp-block-group site-header pro-light-l content-gap">
+	<!-- wp:group {"className":"header-content","layout":{"inherit":false}} -->
+	<div class="wp-block-group header-content">
+	<!-- wp:ainoblocks/flexbox {"alignItemsDesktop":"align-items__center__d","alignItemsTablet":"align-items__center__t","alignItemsMobile":"align-items__center__m"} -->
+<div class="wp-block-ainoblocks-flexbox direction__row__d direction__row__t direction__row__m nowrap__d nowrap_t nowrap_m justify__flexstart__d justify__flexstart__t justify__flexstart__m align-items__center__d align-items__center__t align-items__center__m align-cont__stretch__d align-cont__stretch__t align-cont__stretch__m shadow-none"><!-- wp:ainoblocks/flex-item {"paddingRight":3} -->
+<div class="wp-block-ainoblocks-flex-item auto pr__3">
+<!-- wp:navigation {showSubmenuIcon":false,"overlayMenu":"never","className":"mobile-hide tablet-show","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"},"spacing":{"blockGap":"1rem"}},"fontSize":"text-xxs"} /-->
+</div>
+<!-- /wp:ainoblocks/flex-item -->
+
+<!-- wp:ainoblocks/flex-item {"paddingLeft":1} -->
+<div class="wp-block-ainoblocks-flex-item auto pl__1"><!-- wp:ainoblocks/multiple-buttons -->
+<div class="wp-block-ainoblocks-multiple-buttons"><!-- wp:ainoblocks/button {"size":"size__xs","label":"Search","className":"btn-icon icon-search is-style-naked"} -->
+<div class="wp-block-ainoblocks-button btn-icon icon-search is-style-naked"><a class="wp-block-ainoblocks-button__link size__xs no-border-radius" href="/search/">Search</a></div>
+<!-- /wp:ainoblocks/button --></div>
+<!-- /wp:ainoblocks/multiple-buttons --></div>
+<!-- /wp:ainoblocks/flex-item --></div>
+<!-- /wp:ainoblocks/flexbox -->
 	
 	<!-- wp:navigation {"textColor":"font-secondary","overlayMenu":"never","__unstableLocation":"header-top","className":"mobile-hide","layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"700"}},"fontSize":"text-xxs"} /--></div>
 	<!-- /wp:group -->

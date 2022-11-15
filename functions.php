@@ -1,58 +1,99 @@
 <?php
-if ( ! function_exists( 'makoney_setup' ) ) :
-	function makoney_setup() {
+/**
+ * Functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package makoney
+ * @since 1.0.0
+ */
 
+/**
+ * Add theme support for block styles and editor style.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function makoney_support() {
 
-		// Add support for Block Styles.
-		add_theme_support( 'wp-block-styles' );
+	// Add support for Block Styles.
+	add_theme_support( 'wp-block-styles' );
 
-		// Add support for editor styles.
-		add_theme_support( 'editor-styles' );
+	// Enqueue editor styles.
+	add_editor_style( 'assets/build/css/style-editor.css' );
 
-		// Enqueue editor styles.
-		add_editor_style( array( 'assets/build/css/style-editor.css', makoney_fonts_url() ) );
+	// Remove core block patterns.
+	remove_theme_support( 'core-block-patterns' );
+}
+add_action( 'after_setup_theme', 'makoney_support' );
 
-		// Remove core block patterns.
-		remove_theme_support( 'core-block-patterns' );
+if ( ! function_exists( 'makoney_styles' ) ) :
+
+	/**
+	 * Enqueue styles.
+	 *
+	 * @since Makoney 1.0
+	 *
+	 * @return void
+	 */
+	function makoney_styles() {
+		// Register theme stylesheet.
+		$theme_version = wp_get_theme()->get( 'Version' );
+
+		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		wp_register_style(
+			'makoney-style',
+			get_template_directory_uri() . '/assets/build/css/style.css',
+			array(),
+			$version_string
+		);
+
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'makoney-style' );
 
 	}
-	endif;
-	add_action( 'after_setup_theme', 'makoney_setup' );
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'makoney_styles' );
+
 
 /**
- * Enqueue scripts and styles.
+ * Registers pattern categories.
+ *
+ * @since 1.0.0
  */
-function makoney_scripts() {
-	// Enqueue fonts stylesheet.
-	wp_enqueue_style( 'makoney-fonts', makoney_fonts_url(), array(), wp_get_theme()->get( 'Version' ) );
-	// Theme stylesheet.
-	wp_enqueue_style( 'makoney-style', get_template_directory_uri() . '/assets/build/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
-}
-add_action( 'wp_enqueue_scripts', 'makoney_scripts' );
+function makoney_register_pattern_categories() {
 
-/**
- * Get Google fonts and save locally with WPTT Webfont Loader.
- */
-function makoney_fonts_url() {
-	$font_families = array(
-		'Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600',
-		'Libre+Franklin:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700'
+	$block_pattern_categories = array(
+		'heroes'      => array( 'label' => __( 'Heroes') ),
+		'features'    => array( 'label' => __( 'Features' ) ),
+		'teams'       => array( 'label' => __( 'Teams') ),
+		'portfolios'  => array( 'label' => __( 'Portfolios' ) ),
+		'texts'       => array( 'label' => __( 'Texts' ) ),
+		'contacts'    => array( 'label' => __( 'Contacts' ) ),
+		'queries'     => array( 'label' => __( 'Queries' ) ),
+		'banners'     => array( 'label' => __( 'Banners' ) ),
+		'blog'        => array( 'label' => __( 'Blog') ),
+		'newsletters' => array( 'label' => __( 'Newsletters' ) ),
+		'headers'     => array( 'label' => __( 'Headers' ) ),
+		'footers'     => array( 'label' => __( 'Footers' ) ),
+		'pages'       => array( 'label' => __( 'Pages' ) ),
 	);
 
-	$fonts_url = add_query_arg( array(
-		'family' => implode( '&family=', $font_families ),
-		'display' => 'swap',
-	), 'https://fonts.googleapis.com/css2' );
+	$block_pattern_categories = apply_filters( 'makoney_block_pattern_categories', $block_pattern_categories );
 
-	require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-
-	return wptt_get_webfont_url( esc_url_raw( $fonts_url ) );
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		register_block_pattern_category( $name, $properties );
+	}
 }
 
-// Theme Block Patterns.
-require get_template_directory() . '/inc/block-patterns.php';
+add_action( 'init', 'makoney_register_pattern_categories' );
 
-// Theme Block Styles.
+/**
+ * Register theme block styles.
+ */
 require get_template_directory() . '/inc/block-styles.php';
 
 /**
@@ -72,7 +113,7 @@ function makoney_register_required_plugins() {
 	$plugins = array(
 
 		array(
-			'name'      => 'AinoBlocks - Gutenberg Page Builder Blocks',
+			'name'      => 'AinoBlocks',
 			'slug'      => 'aino-blocks',
 			'required'  => false,
 		),

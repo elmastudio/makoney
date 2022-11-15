@@ -19,11 +19,14 @@
 <section class="wp-block-query alignwide gap-m"><!-- wp:post-template -->
 <!-- wp:post-featured-image {"isLink":true} /-->
 
+<!-- wp:group {"className":"entry-header"} -->
+<div class="wp-block-group entry-header">
 <!-- wp:post-terms {"term":"category","className":"uppercase","fontSize":"text-xxxs"} /-->
-
 <!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.4"}},"fontSize":"text-s","fontFamily":"libre-franklin"} /-->
-
 <!-- wp:post-author {"showAvatar":false,"byline":"by ","fontSize":"text-xxs"} /-->
+</div>
+<!-- /wp:group -->
+
 <!-- /wp:post-template --></section>
 <!-- /wp:query --></section>
 <!-- /wp:group -->

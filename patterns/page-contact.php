@@ -1,14 +1,13 @@
 <?php
 /**
  * Title: Contact Page
- * Slug: makoney/page-magazine-contact
+ * Slug: makoney/page-contact
  * Categories: pages
  */
 ?>
 
 
-<!-- wp:group {"align":"full","paddingTop":13} -->
-<div class="wp-block-group alignfull pt__13"><!-- wp:separator {"opacity":"css","className":"has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"} -->
+<!-- wp:separator {"opacity":"css","className":"has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-css-opacity has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
 
@@ -46,10 +45,11 @@
 
 <!-- wp:paragraph {"fontSize":"text-xl","paddingTop":8} -->
 <p class="has-text-xl-font-size pt__8">We are always here for you, please contact us at any time and share your stories with us. For specific questions or suggestions, please contact one of our staff members, see details below. In case you are looking for more in depth information about us, find out more on our <a href="https://ainoblocks.io/">About</a> page.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:ainoblocks/grid-item --></div>
-<!-- /wp:ainoblocks/grid-container --></div>
-<!-- /wp:group -->
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:ainoblocks/grid-item -->
+</div>
+<!-- /wp:ainoblocks/grid-container -->
 
 <!-- wp:separator {"opacity":"css","className":"has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"} -->
 <hr class="wp-block-separator has-css-opacity has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color alignfull is-style-wide"/>

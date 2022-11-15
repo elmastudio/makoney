@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Footer 5 Columns, Social Links (Light)
- * Slug: makoney/footer-five-col-social-light
+ * Title: Footer (Default)
+ * Slug: makoney/footer-default
  * Categories: footers
  * Block Types: core/template-part/footer
  */
@@ -11,9 +11,11 @@
 <hr class="wp-block-separator has-alpha-channel-opacity has-border-primary-background-color has-background has-border-primary-color has-border-primary-background-color alignfull is-style-wide"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"align":"full","backgroundColor":"background-primary","className":"site-footer"} -->
-<div class="wp-block-group alignfull site-footer has-background-primary-background-color has-background"><!-- wp:group {"className":"footer-content","paddingTop":11,"paddingBottom":10} -->
-<div class="wp-block-group footer-content pt__11 pb__10"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m"} -->
+<!-- wp:group {"backgroundColor":"background-primary","className":"site-footer","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull site-footer has-background-primary-background-color has-background">
+	
+<!-- wp:group {"align":"wide","className":"footer-content","paddingTop":11,"paddingBottom":10} -->
+<div class="wp-block-group alignwide footer-content pt__11 pb__10"><!-- wp:ainoblocks/grid-container {"className":"alignwide col-gap-m"} -->
 <div class="wp-block-ainoblocks-grid-container ab-grid-block alignwide col-gap-m"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":4,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"justifyItem":"stretch","marginBottomDesktop":0,"marginBottomTablet":11,"marginBottomMobile":11,"className":"align-self__start"} -->
 <div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__4 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 justify-self__stretch no-stacking mb_d__0 mb_t__11 mb_m__11 align-self__start"><!-- wp:ainoblocks/grid-container {"className":"alignwide no-gap-desktop"} -->
 <div class="wp-block-ainoblocks-grid-container ab-grid-block alignwide no-gap-desktop"><!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":13,"gridColumnStartTablet":1,"gridColumnEndTablet":4,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"className":"align-self__start justify-self__start"} -->
@@ -141,13 +143,25 @@
 <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"lineHeight":"1.4"}},"textColor":"font-primary","fontSize":"text-s","paddingBottom":5} -->
 <h4 class="has-font-primary-color has-text-color has-text-s-font-size pb__5" id="connect" style="line-height:1.4"><strong>Connect</strong></h4>
 <!-- /wp:heading -->
-
-<!-- wp:navigation {"ref":24669,"textColor":"font-secondary","showSubmenuIcon":false,"overlayMenu":"never","layout":{"type":"flex","justifyContent":"left","orientation":"vertical"},"fontSize":"text-s"} /--></div>
+<!-- wp:paragraph {"fontSize":"text-s","paddingTop":1,"paddingBottom":3} -->
+<p class="has-text-s-font-size pt__1 pb__3"><a href="#">GitHub</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"text-s","paddingTop":1,"paddingBottom":3} -->
+<p class="has-text-s-font-size pt__1 pb__3"><a href="#">Slack</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"text-s","paddingTop":1,"paddingBottom":3} -->
+<p class="has-text-s-font-size pt__1 pb__3"><a href="#">Discord</a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"fontSize":"text-s","paddingTop":1} -->
+<p class="has-text-s-font-size pt__1"><a href="#">Email</a></p>
+<!-- /wp:paragraph --></div>
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:ainoblocks/grid-item -->
 
 <!-- wp:ainoblocks/grid-item {"gridColumnStartDesktop":1,"gridColumnEndDesktop":13,"gridColumnStartTablet":1,"gridColumnEndTablet":13,"gridColumnStartMobile":1,"gridColumnEndMobile":13,"alignItem":"center","justifyItem":"stretch","marginTopDesktop":0,"paddingTop":13} -->
-<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__13 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__center justify-self__stretch no-stacking mt_d__0 pt__13"><!-- wp:social-links {"iconColor":"font-primary","iconColorValue":"#000000","className":"is-style-logos-only"} -->
+<div class="wp-block-ainoblocks-grid-item col_start_d__1 col_end_d__13 col_start_t__1 col_end_t__13 col_start_m__1 col_end_m__13 align-self__center justify-self__stretch no-stacking mt_d__0 pt__13">
+	<!-- wp:social-links {"iconColor":"font-primary","iconColorValue":"#000000","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"1rem"}}}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://twitter.com/ainoblocks","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"https://www.instagram.com/ainoblocks/","service":"instagram"} /-->
