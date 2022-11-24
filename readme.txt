@@ -89,6 +89,7 @@ Release date: Nov 24, 2022
 
 * New: Google fonts Open Sans, DM Sans.
 * New: Demo import wizard.
+* Enhance: functions file.
 
 = 1.2.0 =
 Release date: Nov 10, 2022
