@@ -9,6 +9,13 @@
  */
 
 /**
+ * The theme version.
+ *
+ * @since 1.3.0
+ */
+define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
+/**
  * Add theme support for block styles and editor style.
  *
  * @since 1.0.0
@@ -16,9 +23,6 @@
  * @return void
  */
 function makoney_support() {
-
-	// Add support for Block Styles.
-	add_theme_support( 'wp-block-styles' );
 
 	// Enqueue editor styles.
 	add_editor_style( 'assets/build/css/style-editor.css' );
@@ -28,36 +32,23 @@ function makoney_support() {
 }
 add_action( 'after_setup_theme', 'makoney_support' );
 
-if ( ! function_exists( 'makoney_styles' ) ) :
+/**
+ * Enqueue the CSS files.
+ *
+ * @since 1.0
+ *
+ * @return void
+ */
+function makoney_styles() {
 
-	/**
-	 * Enqueue styles.
-	 *
-	 * @since Makoney 1.0
-	 *
-	 * @return void
-	 */
-	function makoney_styles() {
-		// Register theme stylesheet.
-		$theme_version = wp_get_theme()->get( 'Version' );
-
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
-		wp_register_style(
-			'makoney-style',
-			get_template_directory_uri() . '/assets/build/css/style.css',
-			array(),
-			$version_string
-		);
-
-		// Enqueue theme stylesheet.
-		wp_enqueue_style( 'makoney-style' );
-
-	}
-
-endif;
-
+	wp_enqueue_style(
+		'makoney-style',
+		get_template_directory_uri() . '/assets/build/css/style.css',
+		[],
+		THEME_VERSION
+	);
+}
 add_action( 'wp_enqueue_scripts', 'makoney_styles' );
-
 
 /**
  * Registers pattern categories.
@@ -113,7 +104,7 @@ function makoney_register_required_plugins() {
 	$plugins = array(
 
 		array(
-			'name'      => 'AinoBlocks',
+			'name'      => 'AinoBlocks - Gutenberg Website Builder Blocks',
 			'slug'      => 'aino-blocks',
 			'required'  => false,
 		),
@@ -136,3 +127,14 @@ function makoney_register_required_plugins() {
 
 	tgmpa( $plugins, $config );
 }
+
+/**
+* Theme Setup Wizard.
+*/
+require_once get_parent_theme_file_path( '/inc/merlin/vendor/autoload.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/class-merlin.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/merlin-config.php' );
+require_once get_parent_theme_file_path( '/inc/merlin/merlin-filters.php' );
+
+// Theme Admin Page
+require_once get_template_directory() . '/inc/theme-demo-import.php';
