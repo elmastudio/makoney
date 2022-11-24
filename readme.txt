@@ -4,7 +4,7 @@ Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, f
 Requires at least: 6.1
 Tested up to: WordPress 6.1
 Requires PHP: 7.0
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,19 +60,36 @@ Copyright 2018 The Fraunces Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: (https://github.com/undercasetype/Fraunces)
 
-Urbanist (font)
-Copyright 2021 The Urbanist Project Authors
+Open Sans (font)
+Copyright 2020 The Open Sans Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/coreyhu/Urbanist
+Source: https://github.com/googlefonts/opensans
 
-TGM-Plugin-Activation
+DM Sans (font)
+Copyright 2014-2017 Indian Type Foundry. Copyright 2019 Google LLC.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: indiantypefoundry.com
+
+TGM-Plugin-Activation (Recommended plugin admin info)
 Copyright Thomas Griffin
 License: GPLv2 or later, http://www.gnu.org/licenses/gpl-2.0.html
 Source: http://tgmpluginactivation.com
 
+Merlin WP (Demo Import)
+Copyright Rich Tabor
+License: GPLv3 or later, https://www.gnu.org/licenses/gpl-3.0.html
+Source: https://github.com/richtabor/MerlinWP
+
 Screenshot image #1, (c) Elmastudio Ltd., CC0 1.0 Universal (CC0 1.0) license
 
 == Changelog ==
+
+= 1.3.0 =
+Release date: Nov 24, 2022
+
+* New: Google fonts Open Sans, DM Sans.
+* New: Demo import wizard.
+* Enhance: functions file.
 
 = 1.2.0 =
 Release date: Nov 10, 2022
